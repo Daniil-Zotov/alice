@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrap">
+
+        <header class="header _pink">
+            <div class="header__container _container">
+                <p></p>
+                <nav class="header__menu hidden menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Home</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Blog</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Work</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">About</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+
+        <main class="main _pink">
+            <div class="main__intro intro">
+                <div class="intro__container _container">
+                    <div class="intro__tittle">
+                        <h2>Alice</h2>
+                    </div>
+                    <div class="intro__line">
+                    </div>
+                    <div class="intro__subtittle">
+                        <h4>in wonderland</h4>
+                    </div>
+                </div>
+            </div>
+
+<!-- ------------------ начало каталога -->
+
+            <div class="main__cards cards">
+                <div class="cards__container _container">
+                    <div id="card1" class="card__section">
+                       
+                        <div class="cards__discription">Раздела с сухоцветами</div>
+                        <div id="products" class="cards__block"></div>
+                       
+                       
+                          
+                        
+                        <!-- <div id="item1" class="cards__items"> 
+
+                                <div class="cards__img">
+                                    <img src="img/1.jpeg" alt="foto">
+                                </div>
+                                <div class="cards__title">Букет из лаванды</div>
+                                <div class="cards__subtitle">состав лаванда ведерко надпись</div>
+                                <div class="cards__price">990р.</div>
+                                <div class="cards__buttons">купить</div>
+                            </div>
+                            <div id="item2" class="cards__items">
+
+                                <div class="cards__img">
+                                    <img src="img/2.jpeg" alt="foto">
+                                </div>
+                                <div class="cards__title">Букет из лаванды</div>
+                                <div class="cards__subtitle"></div>
+                                <div class="cards__price"></div>
+                                <div class="cards__buttons"></div>
+
+
+                            </div>
+                            <div id="item3" class="cards__items">
+
+                                <div class="cards__img">
+                                    <img class="id1" src="img/2.jpeg" alt="foto">
+                                    <img class="id2" src="img/1.jpeg" alt="foto">
+                                </div>
+                                <div class="cards__title">Букет из лаванды</div>
+                                <div class="cards__subtitle"></div>
+                                <div class="cards__price"></div>
+                                <div class="cards__buttons"></div>
+
+                            </div>
+                            <div id="item3" class="cards__items">
+
+                                <div class="cards__img">
+                                    <img class="id1" src="img/2.jpeg" alt="foto">
+                                    <img class="id2" src="img/1.jpeg" alt="foto">
+                                </div>
+                                <div class="cards__title">Букет из лаванды</div>
+                                <div class="cards__subtitle"></div>
+                                <div class="cards__price"></div>
+                                <div class="cards__buttons"></div>
+
+                            </div>
+                            <div  class="cards__items cards__empty">  </div>
+                            <div class="cards__items cards__empty">  </div>
+                            <div class="cards__items cards__empty">  </div>
+                            <div class="cards__items cards__empty">  </div>-->
+                        <!-- <div class="cards__discription">кнопочка добавить</div> -->
+                    </div>
+
+                    
+                </div>
+            </div>
+
+
+
+        </main>
+
+        <footer class="footer _pink">
+            футер
+        </footer>
+    </div>
+
+
+
+
+
+    <script> window.onload = () => document.querySelector('.header__menu').classList.remove('hidden');</script>
+
+
+ 
+    
+    <div id="products"></div>
+
+    <!-- Constants and Utils -->
+    <script src="constants/catalog.js"></script>
+    <script src="constants/root.js"></script>
+   
+    <!-- Products -->
+    <script src="components/Products/Products.js"></script>
+   
+
+
+
+
+</body>
+
+</html>
